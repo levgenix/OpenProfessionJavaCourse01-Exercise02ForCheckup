@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Evgeny V. Lobach on 07.10.18 19:40
+  ~ Copyright (c) 2018 | www.itstudio.app | All rights reserved.
+  ~ Last modified 07.10.18 19:40
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/settingsMenuItem"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/settings" />
+    <item
+        android:id="@+id/searchMenuItem"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search" />
+    <item
+        android:id="@+id/exitMenuItem"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="@string/exit" />
+</menu>
